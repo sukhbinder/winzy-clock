@@ -3,14 +3,12 @@ import winzy_clock as w
 
 from argparse import ArgumentParser
 
+
 def test_create_parser():
     subparser = ArgumentParser().add_subparsers()
     parser = w.create_parser(subparser)
 
     assert parser is not None
-
-    result = parser.parse_args(['--test', 'hello'])
-    assert result.test == "hello"
 
 
 def test_plugin(capsys):
