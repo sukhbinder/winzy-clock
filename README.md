@@ -7,6 +7,8 @@
 
 Matrix style clock
 
+![](clock-demo.gif)
+
 ## Installation
 
 First [install winzy](https://github.com/sukhbinder/winzy) by typing
